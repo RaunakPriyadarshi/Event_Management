@@ -1,0 +1,142 @@
+/* General Styling */
+.attendee-management {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header */
+.attendee-management h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Form Styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #34495e;
+    font-family: 'Roboto', sans-serif;
+}
+
+form input, form select, form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form input:focus, form select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Attendee List */
+.attendee-list {
+    list-style: none;
+    padding: 0;
+}
+
+.attendee-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.attendee-list li div {
+    flex: 1;
+}
+
+.attendee-list h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.attendee-list p {
+    margin: 5px 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+}
+
+/* Buttons in List */
+.attendee-list button {
+    margin-left: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.attendee-list button:hover {
+    background-color: #c0392b;
+}
+
+.attendee-list button:nth-child(1) {
+    background-color: #2ecc71;
+}
+
+.attendee-list button:nth-child(1):hover {
+    background-color: #27ae60;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form input, form select, form button {
+        font-size: 0.9rem;
+    }
+
+    .attendee-list h3 {
+        font-size: 1rem;
+    }
+
+    .attendee-list p {
+        font-size: 0.8rem;
+    }
+
+    .attendee-list button {
+        font-size: 0.8rem;
+    }
+}

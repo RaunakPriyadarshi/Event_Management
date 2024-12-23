@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+}
+
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+/* Main Content Styling */
+.main-content {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* EventManagement Page Styling */
+.event-management-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.event-card {
+  width: 48%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.event-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 768px) {
+  .event-management-container {
+      flex-direction: column;
+  }
+
+  .event-card {
+      width: 100%;
+  }
+}
