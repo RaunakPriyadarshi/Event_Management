@@ -1,1 +1,2 @@
 # Event_Management
+The Event Management Dashboard is a web-based application designed to facilitate the organization and management of events. It provides functionalities such as event creation, attendee management, and task tracking. Built using React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for database management, it also features JWT-based authentication for secure access. Users can register or log in to manage events, add or remove attendees, and assign and track tasks efficiently.
